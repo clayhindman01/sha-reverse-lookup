@@ -59,7 +59,7 @@ if (strlen($hash) == 40 or strlen($hash) == 56 or strlen($hash) == 64) {
 }
 ?>
 
-<form method="post" action="index.php">
+<form method="post" action="sha-lookup.php">
     <p>Enter SHA Value:  
     <input name="hash" id="hash" size="68"><br>
     </p>
